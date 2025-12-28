@@ -1,2 +1,44 @@
 
 /* Your CSS Code here. */
+body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .movie-container {
+            position: relative;
+            width: 90%;
+            max-width: 900px;
+            height: 500px;
+        }
+
+        /* Movie Poster */
+        .moviePic {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+            opacity: 0.85;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Movie Description */
+        .movieDetail {
+            position: absolute;
+            top: 60%;
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+            padding: 0 40px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 0 0 20px 20px;
+            box-sizing: border-box;
+            line-height: 1.6;
+        }
